@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "Linux Libertine";
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  src: url("../fonts/lin-libertine-min.eot");
+  src: local('Linux Libertine'), url("../fonts/lin-libertine-min.ttf");
+}
+
+/* CSS Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent; }
+
+/* Layout */
+#wrapper {width:900px; margin:0 auto; position:relative;}
+#header {border-bottom:1px solid #994444; margin: 5px 0 20px 0;}
+#headermenu {float:right; padding-top:12px;}
+#headermenu a {color:#000000; text-decoration:none; margin-left:30px;}
+#recaptcha_widget div {margin-top:5px;}
+#picture {width:100%; height:400px; background-color: #eeeeee; margin-bottom:20px;}
+#picturescrollleft {float:left; width:80px; height:398px; background-color: #eeeeee; border: 1px solid #eeeeee;}
+#picturescrollright {float:right; width:80px; height:398px; background-color: #eeeeee; border: 1px solid #eeeeee;}
+#picturescrollleft a  {width:80px; height:398px; display:block;}
+#picturescrollright a  {width:80px; height:398px; display:block;}
+#picturemetadata {width:100%; margin: 5px auto; clear: both;}
+#picturetitle {float:left;}
+#pictureweek {float:right;}
+div.stories {width: 80%; margin: 50px auto; border: 1px solid #ffcccc;}
+div.storiesheader {background-color: #ffcccc; padding:5px 10px 0 10px;}
+div.submitstory {margin-bottom:20px;padding-bottom:5px; }
+div.sortstories {float:right; padding-top:3px;}
+div.sortstories a {margin-left:20px;}
+#singlestory {width: 70%; margin: 50px auto;}
+#singlestorytitle {margin-bottom:10px;}
+#singlestorycontent {margin-top:30px;}
+div.stars {float:right; padding-top:6px;}
+div.storiesstory {margin: 20px;}
+div.profileinfo {margin: 20px;}
+div.submitcomment {margin: 40px 90px 40px 90px; clear:both;}
+div.comment {clear:both; margin: 20px 0 40px 0;}
+div.clear {clear:both; height:0px;}
+div.bottompadding { padding-bottom:0px; padding-top:0px;}
+td {padding-bottom:8px; vertical-align:top;}
+h3{margin: 40px 0 20px 0;}
+p.votetext {margin:40px 40px 0 0;}
+p#wordcount {margin-top:10px;}
+
+/* Pictures */
+img#mainpicture {/*display:block; margin: 0 auto 0 auto;*/ height:400px;}
+img#insetpicture {display:block; float:right; height:100px;}
+div.avatar {float:left; display:block; margin-right:20px; margin-left: 20px; margin-bottom: 20px;}
+
+/* Typography */
+body {font-family: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif; background:#fafafa; color:#333; }
+h1#sitename {font-size: 200%; color:#eedddd;}
+h1#sitename a {text-decoration:none; color:#bb6666;}
+h1.profiledisplayname {font-size:300%;}
+table {color:#666666; font-family:sans-serif; font-size:90%;}
+#recaptcha_widget a {color:#888888;}
+#picturetitle {font-size:120%; font-weight:bold; color:#994444;}
+span.picturesubmitter {color:#bbbbbb; font-family:sans-serif; font-size:70%; font-weight:normal;}
+span.picturesubmitter a {color:#888888;}
+#pictureweek {font-size:120%; font-weight:bold; color:#994444;}
+#headermenu {font-family:sans-serif;}
+#picture {font-family:sans-serif;}
+div.submitstory {font-family:sans-serif; font-weight:bold;}
+div.submitstory a {color:#000000; text-decoration:none;}
+div.sortstories {color:#888888; font-family:sans-serif; font-size:90%;}
+div.sortstories a {color:#000000; text-decoration:none;}
+#singlestory a {color:#bb6666;}
+#singlestorytitle {font-weight:bold; padding-right: 20px; font-size:180%;}
+#singlestoryauthor {color:#bbbbbb; font-family:sans-serif; font-size:90%;}
+#singlestoryauthor a {color:#888888;}
+#singlestorycontent {font-size:110%; text-indent:2em; line-height: 150%;}
+span.storiesstorytitle {font-weight:bold; padding-right: 20px; font-size:140%;}
+span.storiesstorytitle a {color:#000000; text-decoration:none;}
+span.storiesstoryauthor {color:#bbbbbb; font-family:sans-serif; font-size:90%;}
+span.storiesstoryauthor a {color:#888888;}
+div.storiesstorycontent {font-size:105%;}
+div.storiesstorycontent a {color:#333333; text-decoration:none;}
+div.profileinfo {margin: 20px; font-family:sans-serif; color:#666666; line-height: 150%;}
+#footer {font-family:sans-serif; color:#bbbbbb; font-size:90%;}
+#footer a {color:#888888;}
+h3{color:#666666; font-family:sans-serif; font-size:130%;}
+p.introbig {text-align:center; color:#888888; font-family:sans-serif; font-size:200%; margin-top: 40px; margin-bottom:10px;}
+p.introsmall {text-align:center; color:#888888; font-family:sans-serif; font-size:120%; margin-bottom:40px;}
+p.introsmall a {color:#bb6666; text-decoration:none;}
+p.failnotice {color:red; border: 1px solid red; padding:5px; margin: 50px auto 20px auto; width: 70%; font-family:sans-serif; font-size:90%;}
+p.successnotice {color:darkgreen; border: 1px solid darkgreen; padding:5px; margin: 50px auto 20px auto; width: 70%; font-family:sans-serif; font-size:90%;}
+p.votetext {color:#666666; font-family:sans-serif; font-size:90%;}
+div.commentauthor {color:#bbbbbb; font-family:sans-serif; font-size:90%;}
+div.commentauthor a {color:#888888;}
+div.commentcontent {font-size:90%; line-height: 120%; color:#333333;}
+span.novotes {color:#bbbbbb; font-family:sans-serif;}
+p.helptext { text-align:center; font-family:sans-serif; color:#333333;}
+p.helptext a {color:#bb6666;}
+p.critiquetext {font-family:sans-serif; color:#666666;}
+p.adultcontent {font-family:sans-serif; font-size:90%;}
+p.adultcontent a {color:#888888;}

@@ -1,0 +1,4 @@
+AuthName "Admin login"
+AuthType Basic
+AuthUserFile /home/tsuki/.htpasswd
+Require valid-user
