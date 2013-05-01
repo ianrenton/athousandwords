@@ -10,12 +10,17 @@ Install on Heroku
 
 * Set up a MySQL database somewhere
 * Run:
+
+```
     git clone https://github.com/ianrenton/athousandwords.git
     cd athousandwords
     cp sample.env .env
+```
 * Edit `.env` in your favourite editor
 * Run:
+
+```
     heroku apps:create
     heroku config:push
-    
+```
 Since Heroku is read-only, uploading pictures involves adding them to the repo, committing it and pushing it. It would be nice in future to support automatic upload to Amazon S3 or something.
