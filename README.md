@@ -1,9 +1,7 @@
 A Thousand Words
 ================
 
-"A Thousand Words", a community site where users post short stories inspired by user-submitted pictures. Made for my wife, but it never took off.
-
-Beware, "my first PHP" quality code lies ahead.
+"A Thousand Words" was a community site where users post short stories inspired by user-submitted pictures. I made for my wife, but it never took off. It should be fully functional, but it was written a long time ago so the quality of the code is probably somewhat lacking.
 
 Install on Heroku
 -----------------
